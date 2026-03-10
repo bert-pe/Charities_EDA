@@ -1,4 +1,4 @@
-# Charity Deficit Prediction Model
+# Charity Deficit Prediction Model - Initial Investigation
 
 Predicting whether an Australian registered charity will report a financial deficit based on annual financial statement data from the Australian Charities and Not-for-profits Commission (ACNC).
 
