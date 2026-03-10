@@ -48,16 +48,6 @@ The dataset is imbalanced — roughly 25–30% of charities report a deficit.
 - Financial features (revenue, expenses, assets, liabilities) dominate the top model coefficients
 - Revenue and expenses scale closely together across charities; deficit status depends on small deviations from that proportional relationship
 
-## Requirements
-
-- Python 3.x
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
-- plotly
-
 Install dependencies with:
 
 ```bash
@@ -75,12 +65,9 @@ jupyter notebook charity.ipynb
 
 ## Project Status
 
-This is an initial investigation and baseline model. Planned next steps include exploring tree-based models (Random Forest, XGBoost), applying SMOTE or other resampling techniques for class imbalance, engineering additional features from non-financial columns, and evaluating whether non-financial characteristics can meaningfully predict deficit risk.
+This is an initial investigation and baseline model. Planned next steps include exploring tree-based models (Random Forest) or engineering additional features from non-financial columns, and evaluating whether non-financial characteristics can meaningfully predict deficit risk.
 
-## Data Source
-
-Australian Charities and Not-for-profits Commission (ACNC) via [data.gov.au](https://www.data.gov.au/data/organization/acnc). Licensed under Creative Commons.
 
 ## License
 
-This project is for educational and research purposes.
+This project is for educational and research purposes. The data is a Creative Commons Attribution 2.5 Australia. https://creativecommons.org/licenses/by/2.5/au/
